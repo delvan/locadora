@@ -1,6 +1,5 @@
 package com.locadora.model.br;
 
-import java.security.Timestamp;
 import java.time.LocalDate;
 import java.util.Date;
 
@@ -15,8 +14,6 @@ public class Filme {
 	private String imagem_filme;
 	private LocalDate data_modificacao_filme;
 
-	
-	
 	public LocalDate getData_modificacao_filme() {
 		return data_modificacao_filme;
 	}
